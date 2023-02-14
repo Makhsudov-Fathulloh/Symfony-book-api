@@ -20,6 +20,12 @@ security:
                 - post
             security: false
 
+        categories:
+            pattern: ^/api/categories
+            methods:
+                - get
+            security: false
+
         main:
             stateless: true
             provider: users
